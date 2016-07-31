@@ -10,5 +10,6 @@ module.exports = {
       loaders: ['babel'],
       exclude: /node_modules/
     }]
-  }
+  },
+  devtool: 'source-map'
 };

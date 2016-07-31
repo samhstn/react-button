@@ -1,17 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-class Comp extends React.Component {
+import App from './src/app.js';
+
+class Index extends React.Component {
   render () {
     return (
-      <div>
-        <h1>Hello world</h1>
-      </div>
+      <App />
     );
   }
 }
 
 ReactDOM.render(
-  <Comp />,
+  <Index />,
   document.getElementById('container')
 );
